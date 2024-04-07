@@ -1,0 +1,9 @@
+<!-- res/drawable/spinner_background.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="#FFFFFF" /> <!-- Background color of the spinner -->
+    <corners android:radius="8dp" /> <!-- Corner radius of the spinner background -->
+    <stroke
+        android:width="2dp"
+        android:color="#CCCCCC" /> <!-- Border color and width of the spinner -->
+</shape>

@@ -1,0 +1,10 @@
+<!-- res/drawable/button_background.xml -->
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Button Pressed State -->
+    <item android:drawable="@drawable/button_pressed" android:state_pressed="true"/>
+    <!-- Button Focused State -->
+    <item android:drawable="@drawable/button_focused" android:state_focused="true"/>
+    <!-- Button Default State -->
+    <item android:drawable="@drawable/button_default"/>
+</selector>

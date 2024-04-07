@@ -1,0 +1,47 @@
+<!-- leave_request_item.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- From Date -->
+    <TextView
+        android:id="@+id/textViewFromDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="From Date: 01/01/2024"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <!-- To Date -->
+    <TextView
+        android:id="@+id/textViewToDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="To Date: 10/01/2024"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp" />
+
+    <!-- Leave Reason -->
+    <TextView
+        android:id="@+id/textViewLeaveReason"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Leave Reason: Vacation"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp" />
+
+    <!-- Status -->
+    <TextView
+        android:id="@+id/textViewStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Status: Approved"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>
