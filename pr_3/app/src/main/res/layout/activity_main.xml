@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <!-- Title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Product Page"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Product Name -->
+    <EditText
+        android:id="@+id/txtProduct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Product Name"
+        android:inputType="text"/>
+
+    <!-- Price -->
+    <EditText
+        android:id="@+id/txtPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Price"
+        android:inputType="numberDecimal"/>
+
+    <!-- Quantity -->
+    <EditText
+        android:id="@+id/txtQty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Quantity"
+        android:inputType="number"/>
+
+    <!-- Purchase Date -->
+    <EditText
+        android:id="@+id/txtDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Purchase Date"
+        android:inputType="date"
+        android:focusable="false"
+        android:clickable="true"
+        android:focusableInTouchMode="false"/>
+
+    <!-- Save Button -->
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"/>
+
+    <!-- List View -->
+    <ListView
+        android:id="@+id/lstProduct"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>
